@@ -1,6 +1,4 @@
-package sum
-
-import java.util.*
+package array
 
 
 fun main() {

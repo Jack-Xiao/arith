@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76240e34-dc60-4c1e-92c6-cb0e5b6b0c02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sum/DistinctSolution.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/RemoveRepeatSolution.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sum/DistinctSolution.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/DistinctSolution.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sum/SumSolution.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/SumSolution.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,22 +20,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sum/SumSolution.kt">
+        <entry file="file://$PROJECT_DIR$/src/array/SumSolution.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="e#13#65#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="855">
+              <caret line="58" column="1" selection-start-line="46" selection-start-column="50" selection-end-line="58" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/array/DistinctSolution.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sum/DistinctSolution.kt">
+        <entry file="file://$PROJECT_DIR$/src/array/RemoveRepeatSolution.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+            <state relative-caret-position="50">
+              <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -43,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/common/generated/_Arrays.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="94665">
               <caret line="6314" column="20" selection-start-line="6314" selection-start-column="20" selection-end-line="6314" selection-end-column="20" />
             </state>
           </provider>
@@ -66,14 +72,16 @@
       <list>
         <option value="$PROJECT_DIR$/src/sum/Solution.kt" />
         <option value="$PROJECT_DIR$/src/sum/DistinctSolution.kt" />
+        <option value="$PROJECT_DIR$/src/array/DistinctSolution.kt" />
+        <option value="$PROJECT_DIR$/src/array/RemoveRepeatSolution.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="222" />
-    <option name="y" value="51" />
+    <option name="x" value="418" />
+    <option name="y" value="103" />
     <option name="width" value="1090" />
-    <option name="height" value="762" />
+    <option name="height" value="654" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -97,7 +105,7 @@
               <item name="arith" type="b2602c69:ProjectViewProjectNode" />
               <item name="arith" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sum" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -113,6 +121,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.quicklists" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -126,28 +135,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.sum.DistinctSolutionKt">
-    <configuration name="sum.DistinctSolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.array.RemoveRepeatSolutionKt">
+    <configuration name="array.DistinctSolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="arith" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="sum.DistinctSolutionKt" />
+      <option name="MAIN_CLASS_NAME" value="array.DistinctSolutionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sum.SumSolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="array.RemoveRepeatSolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="arith" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="sum.SumSolutionKt" />
+      <option name="MAIN_CLASS_NAME" value="array.RemoveRepeatSolutionKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="array.SumSolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="arith" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="array.SumSolutionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,8 +177,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.sum.DistinctSolutionKt" />
-        <item itemvalue="Kotlin.sum.SumSolutionKt" />
+        <item itemvalue="Kotlin.array.RemoveRepeatSolutionKt" />
+        <item itemvalue="Kotlin.array.DistinctSolutionKt" />
+        <item itemvalue="Kotlin.array.SumSolutionKt" />
       </list>
     </recent_temporary>
   </component>
@@ -172,18 +195,19 @@
       <updated>1576322382302</updated>
       <workItem from="1576322383557" duration="686000" />
       <workItem from="1576323749040" duration="6000" />
-      <workItem from="1576324398465" duration="5554000" />
+      <workItem from="1576324398465" duration="7137000" />
+      <workItem from="1576377426408" duration="539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6246000" />
+    <option name="totallyTimeSpent" value="8368000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="222" y="51" width="1090" height="762" extended-state="0" />
+    <frame x="418" y="103" width="1090" height="654" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20801526" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2490458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -192,18 +216,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49957302" weight="0.25820896" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39850748" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49957302" weight="0.2580071" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39679715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32985073" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2881041" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2880597" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.500427" side_tool="true" weight="0.32961783" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.2641791" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32919848" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.26334518" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24935952" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -213,79 +236,114 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32919848" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/sum/SumSolution.kt</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/sum/SumSolution.kt</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/sum/DistinctSolution.kt</url>
+          <url>file://$PROJECT_DIR$/src/array/DistinctSolution.kt</url>
           <line>10</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/sum/DistinctSolution.kt</url>
+          <url>file://$PROJECT_DIR$/src/array/DistinctSolution.kt</url>
           <line>6</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/sum/SumSolution.kt</url>
-          <line>7</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/sum/DistinctSolution.kt</url>
+          <url>file://$PROJECT_DIR$/src/array/DistinctSolution.kt</url>
           <line>8</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/sum/DistinctSolution.kt</url>
+          <url>file://$PROJECT_DIR$/src/array/DistinctSolution.kt</url>
           <line>7</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/sum/DistinctSolution.kt</url>
-          <line>29</line>
+          <url>file://$PROJECT_DIR$/src/array/DistinctSolution.kt</url>
+          <line>30</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/sum/DistinctSolution.kt</url>
-          <line>25</line>
+          <url>file://$PROJECT_DIR$/src/array/DistinctSolution.kt</url>
+          <line>26</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/sum/DistinctSolution.kt</url>
-          <line>26</line>
+          <url>file://$PROJECT_DIR$/src/array/DistinctSolution.kt</url>
+          <line>27</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/sum/DistinctSolution.kt</url>
-          <line>24</line>
+          <url>file://$PROJECT_DIR$/src/array/DistinctSolution.kt</url>
+          <line>25</line>
           <properties />
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/array/RemoveRepeatSolution.kt</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/array/RemoveRepeatSolution.kt</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -305,27 +363,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/SumSolution.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="58" column="1" selection-start-line="46" selection-start-column="50" selection-end-line="58" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/common/generated/_Arrays.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="94665">
           <caret line="6314" column="20" selection-start-line="6314" selection-start-column="20" selection-end-line="6314" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sum/SumSolution.kt">
+    <entry file="file://$PROJECT_DIR$/src/array/DistinctSolution.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#13#65#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="101">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sum/DistinctSolution.kt">
+    <entry file="file://$PROJECT_DIR$/src/array/RemoveRepeatSolution.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        <state relative-caret-position="50">
+          <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
         </state>
       </provider>
     </entry>

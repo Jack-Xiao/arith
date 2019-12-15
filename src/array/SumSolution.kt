@@ -1,4 +1,4 @@
-package sum
+package array
 
 import java.util.*
 import kotlin.collections.HashMap
