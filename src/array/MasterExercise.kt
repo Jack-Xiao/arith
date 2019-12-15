@@ -5,7 +5,7 @@ import java.util.*
 fun main() {
     val nums = intArrayOf(1, 3, 5, 6, 8, 7, 3, 0, 5)
     val target = 0
-    exercise1(nums)
+    exercise2(nums)
 //    val r = searchInsert(nums, target)
 //    System.out.println(r)
 //    System.out.println(Arrays.toString(i))
@@ -28,6 +28,27 @@ fun exercise1(nums: IntArray) {
     System.out.println(mixValue)
     System.out.println(Arrays.toString(nums))
 }
+
+/**
+ *
+ * 设置 所有元素倒置
+ *
+  */
+fun exercise2(nums: IntArray) {
+    var temp = 0
+    for ( i in 0 until nums.size/2) {
+        temp = nums[i]
+        nums[i] = nums[nums.size - i -1]
+        nums[nums.size -i - 1] = temp
+    }
+    System.out.println(Arrays.toString(nums))
+}
+
+
+fun execise3(nums: IntArray){
+
+}
+
 
 class MasterExercise {
 
