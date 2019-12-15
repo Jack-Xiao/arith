@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76240e34-dc60-4c1e-92c6-cb0e5b6b0c02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/InsertSolution.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/MasterExercise.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/InsertSolution.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/InsertSolution.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,11 +45,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/array/InsertSolution.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="327">
+              <caret line="30" selection-start-line="30" selection-end-line="36" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/array/MasterExercise.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -67,8 +77,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -83,14 +93,15 @@
         <option value="$PROJECT_DIR$/src/array/DistinctSolution.kt" />
         <option value="$PROJECT_DIR$/src/array/RemoveRepeatSolution.kt" />
         <option value="$PROJECT_DIR$/src/array/InsertSolution.kt" />
+        <option value="$PROJECT_DIR$/src/array/MasterExercise.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="626" />
-    <option name="y" value="96" />
-    <option name="width" value="1090" />
-    <option name="height" value="644" />
+    <option name="x" value="133" />
+    <option name="y" value="69" />
+    <option name="width" value="1239" />
+    <option name="height" value="699" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -144,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.array.InsertSolutionKt">
+  <component name="RunManager" selected="Kotlin.array.MasterExerciseKt">
     <configuration name="array.DistinctSolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="arith" />
       <option name="VM_PARAMETERS" />
@@ -166,6 +177,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="array.InsertSolutionKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="array.MasterExerciseKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="arith" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="array.MasterExerciseKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -199,6 +223,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.array.MasterExerciseKt" />
         <item itemvalue="Kotlin.array.InsertSolutionKt" />
         <item itemvalue="Kotlin.array.RemoveRepeatSolutionKt" />
         <item itemvalue="Kotlin.array.DistinctSolutionKt" />
@@ -219,18 +244,18 @@
       <workItem from="1576322383557" duration="686000" />
       <workItem from="1576323749040" duration="6000" />
       <workItem from="1576324398465" duration="7137000" />
-      <workItem from="1576377426408" duration="1457000" />
+      <workItem from="1576377426408" duration="2466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9286000" />
+    <option name="totallyTimeSpent" value="10295000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="697" y="157" width="1090" height="644" extended-state="0" />
+    <frame x="133" y="69" width="1239" height="699" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2490458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21804512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -240,14 +265,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49957302" weight="0.25724638" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3423913" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3423913" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32985073" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.28647688" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.26029655" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.500427" side_tool="true" weight="0.32961783" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.26268116" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -370,13 +395,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/array/InsertSolution.kt</url>
-          <line>14</line>
+          <line>40</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/array/InsertSolution.kt</url>
-          <line>24</line>
+          <line>50</line>
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
@@ -428,8 +453,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/array/InsertSolution.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="327">
+          <caret line="30" selection-start-line="30" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/MasterExercise.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
         </state>
       </provider>
     </entry>
