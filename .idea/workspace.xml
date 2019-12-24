@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76240e34-dc60-4c1e-92c6-cb0e5b6b0c02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/leetcode/Pow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/leetcode/SumMaxSolution.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/master/RemoveSame.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/master/RemoveSame.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arith/META-INF/arith.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arith/META-INF/arith.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arith/array/DistinctSolutionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arith/array/DistinctSolutionKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arith/array/InsertSolutionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arith/array/InsertSolutionKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arith/array/MasterExercise.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arith/array/MasterExercise.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arith/array/MasterExerciseKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arith/array/MasterExerciseKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arith/array/RemoveRepeatSolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arith/array/RemoveRepeatSolution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arith/array/RemoveRepeatSolutionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arith/array/RemoveRepeatSolutionKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arith/array/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arith/array/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arith/array/SumSolutionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arith/array/SumSolutionKt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,8 +178,16 @@
       <workItem from="1576377426408" duration="2466000" />
       <workItem from="1576679058334" duration="124000" />
       <workItem from="1576679202930" duration="7578000" />
-      <workItem from="1577170442502" duration="2247000" />
+      <workItem from="1577170442502" duration="2545000" />
     </task>
+    <task id="LOCAL-00001" summary="分支 + 递归">
+      <created>1577172772205</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577172772205</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +196,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/xiaojiang/arithmetic/arith/src/array/leetcode" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -190,6 +229,11 @@
           </value>
         </entry>
       </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
     </option>
     <option name="RECENT_FILTERS">
       <map>
@@ -208,8 +252,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="分支 + 递归" />
+    <option name="LAST_COMMIT_MESSAGE" value="分支 + 递归" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="493" y="53" key="CommitChangelistDialog2" timestamp="1577172771746">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="493" y="53" key="CommitChangelistDialog2/0.23.1440.820@0.23.1440.820" timestamp="1577172771746" />
     <state width="1106" height="194" key="GridCell.Tab.0.bottom" timestamp="1577172735751">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
@@ -250,6 +300,10 @@
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="0" y="512" key="com.intellij.ide.util.TipDialog/0.23.1440.820@0.23.1440.820" timestamp="1577170445689" />
+    <state x="695" y="403" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577173152765">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="695" y="403" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.820@0.23.1440.820" timestamp="1577173152765" />
     <state x="475" y="254" key="run.anything.popup" timestamp="1576723147126">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
