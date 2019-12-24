@@ -2,13 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76240e34-dc60-4c1e-92c6-cb0e5b6b0c02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/master/RemoveSame.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/leetcode/Pow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/leetcode/SumMaxSolution.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/master/RemoveSame.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/master/RemoveSame.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -16,8 +32,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -25,19 +42,25 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1V9xLbl9uWHlTeDM7Yq4oTCSrfc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.quicklists" />
   </component>
   <component name="RecentsManager">
@@ -45,7 +68,20 @@
       <recent name="$PROJECT_DIR$/src/array/master" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.array.MasterExerciseKt">
+  <component name="RunManager" selected="Application.Pow">
+    <configuration name="Pow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.leetcode.Pow" />
+      <module name="arith" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="array.DistinctSolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="arith" />
       <option name="VM_PARAMETERS" />
@@ -98,26 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array.SumSolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="arith" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="array.SumSolutionKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Pow" />
         <item itemvalue="Kotlin.array.MasterExerciseKt" />
         <item itemvalue="Kotlin.array.InsertSolutionKt" />
         <item itemvalue="Kotlin.array.RemoveRepeatSolutionKt" />
         <item itemvalue="Kotlin.array.DistinctSolutionKt" />
-        <item itemvalue="Kotlin.array.SumSolutionKt" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +171,8 @@
       <workItem from="1576324398465" duration="7137000" />
       <workItem from="1576377426408" duration="2466000" />
       <workItem from="1576679058334" duration="124000" />
-      <workItem from="1576679202930" duration="74000" />
+      <workItem from="1576679202930" duration="7578000" />
+      <workItem from="1577170442502" duration="2247000" />
     </task>
     <servers />
   </component>
@@ -181,6 +205,59 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1106" height="194" key="GridCell.Tab.0.bottom" timestamp="1577172735751">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="1106" height="194" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1577172735751" />
+    <state width="1106" height="194" key="GridCell.Tab.0.center" timestamp="1577172735750">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="1106" height="194" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1577172735750" />
+    <state width="1106" height="194" key="GridCell.Tab.0.left" timestamp="1577172735750">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="1106" height="194" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1577172735750" />
+    <state width="1106" height="194" key="GridCell.Tab.0.right" timestamp="1577172735751">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="1106" height="194" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1577172735751" />
+    <state width="1106" height="194" key="GridCell.Tab.1.bottom" timestamp="1577172735753">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="1106" height="194" key="GridCell.Tab.1.bottom/0.23.1440.820@0.23.1440.820" timestamp="1577172735753" />
+    <state width="1106" height="194" key="GridCell.Tab.1.center" timestamp="1577172735752">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="1106" height="194" key="GridCell.Tab.1.center/0.23.1440.820@0.23.1440.820" timestamp="1577172735752" />
+    <state width="1106" height="194" key="GridCell.Tab.1.left" timestamp="1577172735751">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="1106" height="194" key="GridCell.Tab.1.left/0.23.1440.820@0.23.1440.820" timestamp="1577172735751" />
+    <state width="1106" height="194" key="GridCell.Tab.1.right" timestamp="1577172735752">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="1106" height="194" key="GridCell.Tab.1.right/0.23.1440.820@0.23.1440.820" timestamp="1577172735752" />
+    <state x="0" y="23" width="1024" height="820" key="SettingsEditor" timestamp="1576723151629">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="0" y="23" width="1024" height="820" key="SettingsEditor/0.23.1440.820@0.23.1440.820" timestamp="1576723151629" />
+    <state x="0" y="512" key="com.intellij.ide.util.TipDialog" timestamp="1577170445689">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="0" y="512" key="com.intellij.ide.util.TipDialog/0.23.1440.820@0.23.1440.820" timestamp="1577170445689" />
+    <state x="475" y="254" key="run.anything.popup" timestamp="1576723147126">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="475" y="254" key="run.anything.popup/0.23.1440.820@0.23.1440.820" timestamp="1576723147126" />
+    <state x="820" y="167" width="670" height="676" key="search.everywhere.popup" timestamp="1577170976180">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="820" y="167" width="670" height="676" key="search.everywhere.popup/0.23.1440.820@0.23.1440.820" timestamp="1577170976180" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -235,22 +312,18 @@
           <line>68</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/array/InsertSolution.kt</url>
-          <line>40</line>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/leetcode/Pow.java</url>
+          <line>45</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/array/InsertSolution.kt</url>
-          <line>50</line>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/leetcode/Pow.java</url>
+          <line>46</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/arith$sum_DistinctSolutionKt.ic" NAME="sum.DistinctSolutionKt Coverage Results" MODIFIED="1576338220201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

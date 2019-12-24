@@ -11,6 +11,7 @@ import java.util.*
 
 fun main(args: Array<String>) {
     var nums = intArrayOf(1, 1, 3, 4, 5, 6, 7, 9, 9, 0, 1, 3, 6)
+    var nums1 = intArrayOf(10,11,12,34,1)
     val list = nums.toMutableList()
     val target = 1
 //    removeSameNum(list, target)
@@ -22,7 +23,9 @@ fun main(args: Array<String>) {
 //    mergeSeqArray
 
 
-    exchangeNum(nums.toMutableList(), 3)
+//    exchangeNum(nums.toMutableList(), 3)
+//    mergeSeqArray()
+
 }
 
 //#3 删除线性表中所有值为x 的数据元素
@@ -58,6 +61,7 @@ fun removeBetweenNum1(nums: MutableList<Int>, s: Int, t: Int) {
             nums.removeAt(i)
         }
     }
+
     System.out.println(Arrays.toString(nums.toIntArray()))
 }
 
@@ -75,34 +79,58 @@ fun removeRepeatNum(nums: MutableList<Int>, target: Int) {
 }
 
 //#7 将两个有序顺序表合并为一个
-fun mergeSeqArray(nums: MutableList<Int>, nums1: MutableList<Int>) {
+fun mergeSeqArray(nums: MutableList<Int>, nums1: MutableList<Int>, result: MutableList<Int>) {
     val result = mutableListOf<Int>()
-
-    var i = 0
-    nums.forEach { value1 ->
-        if (value1 < nums1[i]) {
-            result.add(value1)
-        } else if (value1 > nums1[i]) {
-            result.add(nums1[i])
-            if (nums1.size - 1 > i) {
-                i++
-            }
+//
+//    var i = 0
+//    nums.forEach { value1 ->
+//        if (value1 < nums1[i]) {
+//            result.add(value1)
+//        } else if (value1 > nums1[i]) {
+//            result.add(nums1[i])
+//            if (nums1.size - 1 > i) {
+//                i++
+//            }
+//        } else {
+//            result.add(value1)
+//            if (nums1.size - 1 > i) {
+//                i++
+//            }
+//        }
+//    }
+//
+//    if (i < nums1.size) {
+//        for (j in IntRange(i + 1, nums1.size)) {
+//            result.add(nums1[j])
+//        }
+//    }
+    var i = 0;
+    var j = 0;
+    var k = 0;
+    while (i < nums.size && j < nums1.size) {
+        if (nums[i] <= nums1[j]) {
+            result[k++] = nums[i++]
         } else {
-            result.add(value1)
-            if (nums1.size - 1 > i) {
-                i++
-            }
+            result[k++] = nums1[i++]
         }
+    }
+    while (i<nums.size){
+        result[k++] = nums[i++]
+    }
+    while (j<nums1.size){
+        result[k++] = nums1[j++]
     }
 
-    if (i < nums1.size) {
-        for (j in IntRange(i + 1, nums1.size)) {
-            result.add(nums1[j])
-        }
-    }
+    println(nums.toIntArray().contentToString())
+    println(nums1.toIntArray().contentToString())
+    println(result.toIntArray().contentToString())
 }
 
 //#8 以为数组中， 依次存放两个线性表,（a1,a2,a3）(b1,b2,b3)，将两顺序表位置调换
+//1. 先全部逆置、
+//2.
+
+
 
 
 //#9 设将n(n > 1)个整数存放到一维数组R中。
