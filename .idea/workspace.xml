@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76240e34-dc60-4c1e-92c6-cb0e5b6b0c02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/array/leetcode/L169.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arith/META-INF/arith.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arith/META-INF/arith.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arith/array/DistinctSolutionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arith/array/DistinctSolutionKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arith/array/InsertSolutionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arith/array/InsertSolutionKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arith/array/MasterExercise.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arith/array/MasterExercise.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arith/array/MasterExerciseKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arith/array/MasterExerciseKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arith/array/RemoveRepeatSolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arith/array/RemoveRepeatSolution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arith/array/RemoveRepeatSolutionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arith/array/RemoveRepeatSolutionKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arith/array/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arith/array/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arith/array/SumSolutionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arith/array/SumSolutionKt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,9 +66,9 @@
       <recent name="$PROJECT_DIR$/src/array/master" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Pow">
-    <configuration name="Pow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.leetcode.Pow" />
+  <component name="RunManager" selected="Application.L169">
+    <configuration name="L169" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.leetcode.L169" />
       <module name="arith" />
       <extension name="coverage">
         <pattern>
@@ -88,15 +80,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array.DistinctSolutionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="Pow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.leetcode.Pow" />
       <module name="arith" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="array.DistinctSolutionKt" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.L169" />
         <item itemvalue="Application.Pow" />
         <item itemvalue="Kotlin.array.MasterExerciseKt" />
         <item itemvalue="Kotlin.array.InsertSolutionKt" />
         <item itemvalue="Kotlin.array.RemoveRepeatSolutionKt" />
-        <item itemvalue="Kotlin.array.DistinctSolutionKt" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +170,7 @@
       <workItem from="1576377426408" duration="2466000" />
       <workItem from="1576679058334" duration="124000" />
       <workItem from="1576679202930" duration="7578000" />
-      <workItem from="1577170442502" duration="2545000" />
+      <workItem from="1577170442502" duration="5055000" />
     </task>
     <task id="LOCAL-00001" summary="分支 + 递归">
       <created>1577172772205</created>
@@ -187,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577172772205</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add init">
+      <created>1577173174793</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577173174793</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,45 +252,46 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="分支 + 递归" />
-    <option name="LAST_COMMIT_MESSAGE" value="分支 + 递归" />
+    <MESSAGE value="add init" />
+    <option name="LAST_COMMIT_MESSAGE" value="add init" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="493" y="53" key="CommitChangelistDialog2" timestamp="1577172771746">
+    <state x="493" y="53" key="CommitChangelistDialog2" timestamp="1577173174478">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state x="493" y="53" key="CommitChangelistDialog2/0.23.1440.820@0.23.1440.820" timestamp="1577172771746" />
-    <state width="1106" height="194" key="GridCell.Tab.0.bottom" timestamp="1577172735751">
+    <state x="493" y="53" key="CommitChangelistDialog2/0.23.1440.820@0.23.1440.820" timestamp="1577173174478" />
+    <state width="1083" height="241" key="GridCell.Tab.0.bottom" timestamp="1577174245123">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1106" height="194" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1577172735751" />
-    <state width="1106" height="194" key="GridCell.Tab.0.center" timestamp="1577172735750">
+    <state width="1083" height="241" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1577174245123" />
+    <state width="1083" height="241" key="GridCell.Tab.0.center" timestamp="1577174245122">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1106" height="194" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1577172735750" />
-    <state width="1106" height="194" key="GridCell.Tab.0.left" timestamp="1577172735750">
+    <state width="1083" height="241" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1577174245122" />
+    <state width="1083" height="241" key="GridCell.Tab.0.left" timestamp="1577174245122">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1106" height="194" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1577172735750" />
-    <state width="1106" height="194" key="GridCell.Tab.0.right" timestamp="1577172735751">
+    <state width="1083" height="241" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1577174245122" />
+    <state width="1083" height="241" key="GridCell.Tab.0.right" timestamp="1577174245123">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1106" height="194" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1577172735751" />
-    <state width="1106" height="194" key="GridCell.Tab.1.bottom" timestamp="1577172735753">
+    <state width="1083" height="241" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1577174245123" />
+    <state width="1083" height="241" key="GridCell.Tab.1.bottom" timestamp="1577174245124">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1106" height="194" key="GridCell.Tab.1.bottom/0.23.1440.820@0.23.1440.820" timestamp="1577172735753" />
-    <state width="1106" height="194" key="GridCell.Tab.1.center" timestamp="1577172735752">
+    <state width="1083" height="241" key="GridCell.Tab.1.bottom/0.23.1440.820@0.23.1440.820" timestamp="1577174245124" />
+    <state width="1083" height="241" key="GridCell.Tab.1.center" timestamp="1577174245123">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1106" height="194" key="GridCell.Tab.1.center/0.23.1440.820@0.23.1440.820" timestamp="1577172735752" />
-    <state width="1106" height="194" key="GridCell.Tab.1.left" timestamp="1577172735751">
+    <state width="1083" height="241" key="GridCell.Tab.1.center/0.23.1440.820@0.23.1440.820" timestamp="1577174245123" />
+    <state width="1083" height="241" key="GridCell.Tab.1.left" timestamp="1577174245123">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1106" height="194" key="GridCell.Tab.1.left/0.23.1440.820@0.23.1440.820" timestamp="1577172735751" />
-    <state width="1106" height="194" key="GridCell.Tab.1.right" timestamp="1577172735752">
+    <state width="1083" height="241" key="GridCell.Tab.1.left/0.23.1440.820@0.23.1440.820" timestamp="1577174245123" />
+    <state width="1083" height="241" key="GridCell.Tab.1.right" timestamp="1577174245124">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1106" height="194" key="GridCell.Tab.1.right/0.23.1440.820@0.23.1440.820" timestamp="1577172735752" />
+    <state width="1083" height="241" key="GridCell.Tab.1.right/0.23.1440.820@0.23.1440.820" timestamp="1577174245124" />
     <state x="0" y="23" width="1024" height="820" key="SettingsEditor" timestamp="1576723151629">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
@@ -375,6 +375,26 @@
           <url>file://$PROJECT_DIR$/src/array/leetcode/Pow.java</url>
           <line>46</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/leetcode/L169.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/leetcode/L169.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/leetcode/L169.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/leetcode/L169.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
